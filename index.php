@@ -1,7 +1,8 @@
-<?php ?><?php
+<?php
 	
 	# constants - Daspremont Elodie
 	define('VIEWS_PATH','views/');
+	define('CONTROL_PATH','controllers/');
 
 	# Automatised require for 'models' class - Daspremont Elodie
 	function load($class) {
