@@ -1,0 +1,78 @@
+/**
+@font-face{
+  font-family: "";
+  src: url("");
+}
+*/
+html{
+    font-family: Arial,serif;
+    font-size:1em;
+    background: rgb(19, 24, 21);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    width: 95%;
+	height:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0; /*Supression du defilement latteral superflu*/
+  }
+  footer,header{
+    width: 99%;
+    height: 99%;
+    min-height: 50px;
+	background-color:rgba(153,190,143,0.8);
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+    justify-content: center;
+    padding: 15px 20px 10px 20px;
+    border: 2px groove rgba(208,199,162);
+    border-radius: 10px;
+  }
+#main{
+    background-color: rgb(78,128,100,0.8);
+    display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: flex-start;
+    width: 80%;
+    height: 80%;
+    min-height: 100px;
+    margin:5px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+	padding: 12px 15px;
+}
+nav ul {
+    width: 220px;
+    margin: 0;
+	padding: 0;
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav li{
+    width: 100px;
+    padding: 2px;
+    background-color:  rgba(208,199,162);
+    border: groove 2px black;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+}
