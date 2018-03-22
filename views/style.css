@@ -76,3 +76,11 @@ nav li{
 nav a {
     text-decoration: none;
 }
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: beige;
+}
