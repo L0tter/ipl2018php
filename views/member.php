@@ -1,3 +1,3 @@
 <article>
-	<p>Bonjour utilisateur </p>
+	<p> Bonjour utilisateur </p>
 </article>
