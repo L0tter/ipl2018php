@@ -1,5 +1,9 @@
 <?php
 	
+	session_start();
+	
+	$_SESSION['authentifie'] = false;
+	
 	# constants - Daspremont Elodie
 	define('VIEWS_PATH','views/');
 	define('CONTROL_PATH','controllers/');
@@ -11,7 +15,7 @@
 	spl_autoload_register('load'); 
 	
 	# Database connexion - Daspremont Elodie
-	$db=DataBase::getInstance();
+	$db=Db::getInstance();
 
 	require_once(VIEWS_PATH.'header.php');
 

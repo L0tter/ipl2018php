@@ -2,7 +2,7 @@
 /**
  * @author Daspremont Elodie
  */
-class DataBase{
+class Db{
     private static $_instance;
     private $_db;
     private static $DB='mysql:host=localhost;dbname=bdbn;charset=utf8';
@@ -22,7 +22,7 @@ class DataBase{
     public static function getInstance()
     {
         if (is_null(self::$_instance)) {
-            self::$_instance = new DataBase();
+            self::$_instance = new Db();
         }
         return self::$_instance;
     }

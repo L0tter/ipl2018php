@@ -18,7 +18,7 @@
 					<li><a href="index.php">Accueil</a></li>
 					<li><a href="index.php">Gallerie</a></li>
 					<li><a href="index.php">Evénements</a></li>
-					<li><a href="index.php">Membre</a></li>
+					<li><a href="<?php echo VIEWS_PATH; ?>member.php">Membre</a></li>
 					<li><a href="index.php">Plans</a></li>
 					<li><a href="index.php">Administration</a></li>
 				</ul>				
