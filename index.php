@@ -18,8 +18,23 @@
 	$db=Db::getInstance();
 
 	require_once(VIEWS_PATH.'header.php');
-
-
+	
+	#vérification de la variable action
+	$action = (isset($_GET['action'])) ? $_GET['action'] : 'default';
+	
+	switch($action){
+		case 'genese':
+			require_once(CONTROL_PATH.'MemberController.php');	
+			$controller = new MemberController();
+			break;
+		default: 
+			require_once(CONTROL_PATH.'AccueilController.php');	
+			$controller = new AccueilController();
+			break;
+	
+	}
+	
+	$controller->run();
 
 	require_once(VIEWS_PATH.'footer.php');
 ?>
