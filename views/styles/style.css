@@ -27,7 +27,7 @@ footer,header{
     min-height: 50px;
 	background-color:rgba(153,190,143,0.8);
 	display: flex;
-	flex-flow: column;
+	flex-direction: column;
 	align-items: flex-start;
     justify-content: center;
     padding: 15px 20px 10px 20px;
@@ -37,8 +37,8 @@ footer,header{
 #main{
     background-color: rgb(78,128,100,0.8);
     display: flex;
-	flex-flow: column;
-	align-items: center;
+	flex-direction: row;
+	align-items: flex-start;
 	justify-content: flex-start;
     width: 80%;
     height: 80%;
@@ -67,7 +67,7 @@ nav ul {
     justify-content: space-between;
 }
 nav li{
-    width: 100px;
+    min-width: 110px;
     padding: 2px;
     background-color:  rgba(208,199,162);
     border: groove 2px black;
@@ -80,4 +80,16 @@ footer h2 {
     margin: 0;
     width: 100%;
     text-align: center;
+}
+article{
+	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	background-color: beige;
+	margin: auto;
+	border : 1px black groove;
+	border-radius: 10px;
+	padding: 5px;
 }
