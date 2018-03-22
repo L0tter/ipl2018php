@@ -31,11 +31,11 @@ footer,header{
 	align-items: flex-start;
     justify-content: center;
     padding: 15px 20px 10px 20px;
-    border: 2px groove rgba(208,199,162,1);
+    border: 2px groove rgba(208,199,162);
     border-radius: 10px;
   }
 #main{
-    background-color: rgba(78,128,100,0.8);
+    background-color: rgb(78,128,100,0.8);
     display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -69,7 +69,7 @@ nav ul {
 nav li{
     min-width: 110px;
     padding: 2px;
-    background-color:  rgba(208,199,162,1);
+    background-color:  rgba(208,199,162);
     border: groove 2px black;
     text-align: center;
 }
