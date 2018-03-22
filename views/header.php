@@ -5,7 +5,7 @@
 		<meta name="author" content="Claes Alexandre, Daspremont Elodie"
 		<meta name="keywords" content="Sport, Gestion Application">
 		<title>Title</title>
-		<link rel="stylesheet" type="text/css" href="<?php echo VIEWS_PATH; ?>style.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo VIEWS_PATH; ?>styles/style.css">
 	</head>
 	<div id="background"></div>
 	<body>
@@ -15,8 +15,12 @@
 			</h1>
 			<nav>
 				<ul>
-					<li><a href="index.php">First Link</a></li>
-					<li><a href="index.php">Second Link</a></li>		
+					<li><a href="index.php">Accueil</a></li>
+					<li><a href="index.php">Gallerie</a></li>
+					<li><a href="index.php">Evénements</a></li>
+					<li><a href="index.php">Membre</a></li>
+					<li><a href="index.php">Plans</a></li>
+					<li><a href="index.php">Administration</a></li>
 				</ul>				
 			</nav>			
 		</header>

@@ -76,3 +76,8 @@ nav li{
 nav a {
     text-decoration: none;
 }
+footer h2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
