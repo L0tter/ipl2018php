@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     padding: 0; /*Supression du defilement latteral superflu*/
   }
-  footer,header{
+footer,header{
     width: 99%;
     height: 99%;
     min-height: 50px;
@@ -31,11 +31,11 @@ body{
 	align-items: flex-start;
     justify-content: center;
     padding: 15px 20px 10px 20px;
-    border: 2px groove rgba(208,199,162,1);
+    border: 2px groove rgba(208,199,162);
     border-radius: 10px;
   }
 #main{
-    background-color: rgba(78,128,100,0.8);
+    background-color: rgb(78,128,100,0.8);
     display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -67,24 +67,16 @@ nav ul {
     justify-content: space-between;
 }
 nav li{
-    min-width: 111px;
+    width: 100px;
     padding: 2px;
-    background-color:  rgba(208,199,162,1);
+    background-color:  rgba(208,199,162);
     border: groove 2px black;
     text-align: center;
 }
 nav a {
     text-decoration: none;
 }
-article{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: beige;
-}
-footer h2{
+footer h2 {
     margin: 0;
     width: 100%;
     text-align: center;
