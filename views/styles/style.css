@@ -76,6 +76,7 @@ nav li{
 nav a {
     text-decoration: none;
 }
+<<<<<<< HEAD:views/style.css
 article{
     display: flex;
     flex-direction: row;
@@ -83,4 +84,10 @@ article{
     align-items: center;
     flex-wrap: wrap;
     background-color: beige;
+=======
+footer h2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+>>>>>>> Alex:views/styles/style.css
 }
