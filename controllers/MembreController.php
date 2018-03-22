@@ -1,5 +1,5 @@
 <?php
-class LoginController {
+class MembreController {
 	
 	public function __construct(){
 	
@@ -17,9 +17,9 @@ class LoginController {
 	}
 	
 	
-	require_once(VIEW_PATH . 'member.php');
+	require_once(VIEWS_PATH . 'member.php');
 	}
 	
-
+}
 
 ?>

@@ -16,13 +16,11 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">Accueil</a></li>
-					<li><a href="index.php">Gallerie</a></li>
-					<li><a href="index.php">Evénements</a></li>
-					<li><a href="<?php echo VIEWS_PATH; ?>member.php">Membre</a></li>
-					<li><a href="index.php">Plans</a></li>
-					<li><a href="index.php">Administration</a></li>
+					<li><a href="index.php?action=gallery">Gallerie</a></li>
+					<li><a href="index.php?action=events">Evénements</a></li>
+					<li><a href="index.php?action=member">Membre</a></li>
+					<li><a href="index.php?action=plans">Plans</a></li>
+					<li><a href="index.php?action=admin">Administration</a></li>
 				</ul>				
 			</nav>			
 		</header>
-		<section id="main">
-			<h2>Une Page </h2>
