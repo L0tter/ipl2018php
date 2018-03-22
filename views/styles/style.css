@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     padding: 0; /*Supression du defilement latteral superflu*/
   }
-  footer,header{
+footer,header{
     width: 99%;
     height: 99%;
     min-height: 50px;
