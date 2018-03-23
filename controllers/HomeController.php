@@ -9,7 +9,6 @@ class HomeController {
 	
 	
 	
-	
 	if(!empty($_POST['logINUP'])){
 		require_once(VIEWS_PATH . 'login_up.php ');
 	}else
