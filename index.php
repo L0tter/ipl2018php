@@ -2,8 +2,6 @@
 	
 	session_start();
 	
-	$_SESSION['authentifie'] = false;
-	
 	# constants - Daspremont Elodie
 	define('VIEWS_PATH','views/');
 	define('CONTROL_PATH','controllers/');
