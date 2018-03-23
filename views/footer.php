@@ -1,6 +1,7 @@
         </section>
         <footer>
-        	<h2>Footer</h2>
+        	<p>Developpement & design by <b>Daspremont Elodie</b> and <b>Claes Alexandre</b>.</p>
+			
 		</footer>
 	</body>
 </html>
