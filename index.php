@@ -1,6 +1,11 @@
 <?php
 	
 	session_start();
+
+	$_SESSION['login'] = "";
+	$_SESSION['password']="";
+	$_SESSION['authentifie'] = false;
+
 	
 	# constants - Daspremont Elodie
 	define('VIEWS_PATH','views/');
