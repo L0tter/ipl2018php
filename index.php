@@ -30,8 +30,8 @@
 			$controller = new EventsController();
 			break;
 		case 'member':
-			require_once(CONTROL_PATH.'MembreController.php');	
-			$controller = new MembreController();
+			require_once(CONTROL_PATH.'MemberController.php');	
+			$controller = new MemberController();
 			break;
 		case 'plans':
 			require_once(CONTROL_PATH.'PlansController.php');	

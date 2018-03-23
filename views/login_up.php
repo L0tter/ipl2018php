@@ -1,4 +1,3 @@
-
 <article>
     <form action="index.php" method="POST">
         <legend>Inscription</legend>
