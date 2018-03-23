@@ -6,7 +6,7 @@
     </form>
 </article>
 <article>
-    <form action="index.php" method="POST">
+    <form action="index.php?action=member" method="POST">
         <legend>Connexion</legend>
         <label>Pseudo : </label><input type="text" name="user" required></br>
         <label>Mot de passe : </label><input type="password" name="passwd" required></br>
